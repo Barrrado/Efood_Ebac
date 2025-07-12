@@ -1,6 +1,6 @@
-import Cabeçalho from './components/header'
-import Main from './components/main'
-import Footer from './components/footer'
+import Cabeçalho from './components/Principalpage/header'
+import Main from './components/Principalpage/main'
+import Footer from './components/Principalpage/footer'
 
 function App() {
   return (

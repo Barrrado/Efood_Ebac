@@ -7,7 +7,7 @@ export const Header = styled.header`
   height: 170px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 `
 export const TextoHeader = styled.h2`

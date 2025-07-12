@@ -21,7 +21,7 @@ export const TituloHome = styled.h2`
   margin-top: 80px;
 `
 export const Texto = styled.div`
-  max-width: 1000px;
+  max-width: 1144px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -42,9 +42,11 @@ export const ItenCard = styled.div`
 `
 export const RestContent = styled.div`
   display: grid;
-  grid-gap: 40px;
+
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 80%;
+  justify-items: center;
 `
 export const Rav = styled.img`
   width: 320px;

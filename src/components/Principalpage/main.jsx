@@ -1,11 +1,11 @@
 import React from 'react'
-import capa from '../img/capa.jpeg'
-import capa1 from '../img/capa1.jpeg'
-import capa2 from '../img/capa2.png'
-import capa3 from '../img/capa3.jpeg'
-import capa4 from '../img/capa4.jpeg'
-import capa5 from '../img/capa5.png'
-import estrela from '../img/estrela.png'
+import capa from '../../img/capa.jpeg'
+import capa1 from '../../img/capa1.jpeg'
+import capa2 from '../../img/capa2.png'
+import capa3 from '../../img/capa3.jpeg'
+import capa4 from '../../img/capa4.jpeg'
+import capa5 from '../../img/capa5.png'
+import estrela from '../../img/estrela.png'
 import {
   Conteiner,
   ImgCard,
@@ -20,7 +20,7 @@ import {
   Nota,
   BtnLink,
   Notatitulo
-} from '../styles/main'
+} from '../../styles/main'
 
 function Main() {
   return (
@@ -90,7 +90,7 @@ function Main() {
               voluptatem perspiciatis rerum nostrum excepturi obcaecati, quod at
               reprehenderit laudantium expedita laborum!
             </Pcard>
-            <Btn>Saiba Mais</Btn>
+            <BtnLink to="home/6">Saiba Mais</BtnLink>
           </CorpoCard>
         </Card>
         <Card gridColumn="1" gridRow="2">
@@ -112,7 +112,7 @@ function Main() {
               voluptatem perspiciatis rerum nostrum excepturi obcaecati, quod at
               reprehenderit laudantium expedita laborum!
             </Pcard>
-            <Btn>Saiba Mais</Btn>
+            <BtnLink to="home/3">Saiba Mais</BtnLink>
           </CorpoCard>
         </Card>
         <Card gridColumn="1" gridRow="3">
@@ -134,7 +134,7 @@ function Main() {
               voluptatem perspiciatis rerum nostrum excepturi obcaecati, quod at
               reprehenderit laudantium expedita laborum!
             </Pcard>
-            <Btn>Saiba Mais</Btn>
+            <BtnLink to="home/4">Saiba Mais</BtnLink>
           </CorpoCard>
         </Card>
         <Card gridColumn="2" gridRow="3">
@@ -156,7 +156,7 @@ function Main() {
               voluptatem perspiciatis rerum nostrum excepturi obcaecati, quod at
               reprehenderit laudantium expedita laborum!
             </Pcard>
-            <Btn>Saiba Mais</Btn>
+            <BtnLink to="home/5">Saiba Mais</BtnLink>
           </CorpoCard>
         </Card>
       </Conteiner>

@@ -5,8 +5,11 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Restaurantes/Italian/home'
-import Arabe from './components/Restaurantes/Arabe'
-
+import Arabe from '../src/components/Restaurantes/Arabe/Arabe'
+import Japonesa from '../src/components/Restaurantes/japonesa/japonesa'
+import Lusitano from './components/Restaurantes/lusitano/lusitano'
+import Pizza from './components/Restaurantes/pizza/pizza'
+import Vegano from './components/Restaurantes/Vegano/vegano'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -19,6 +22,22 @@ const router = createBrowserRouter([
   {
     path: '/home/:id',
     element: <Arabe />
+  },
+  {
+    path: 'home/3',
+    element: <Japonesa />
+  },
+  {
+    path: 'home/4',
+    element: <Lusitano />
+  },
+  {
+    path: 'home/5',
+    element: <Pizza />
+  },
+  {
+    path: 'home/6',
+    element: <Vegano />
   }
 ])
 

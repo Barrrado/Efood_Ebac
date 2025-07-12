@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../img/logo.png'
+import logo from '../../components/Perfil/imgPerfil/logo.png'
 
-import { Header, Logo, TextoHeader } from '../styles/header'
+import { Header, Logo, TextoHeader } from '../../styles/header'
 
 function Cabeçalho() {
   return (
