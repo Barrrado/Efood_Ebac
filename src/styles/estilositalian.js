@@ -21,7 +21,7 @@ export const TituloHome = styled.h2`
   margin-top: 80px;
 `
 export const Texto = styled.div`
-  max-width: 1144px;
+  max-width: 1065px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
