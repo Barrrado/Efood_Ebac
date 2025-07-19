@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Fundo from '../../src/components/Perfil/imgPerfil/Vector.png'
+import Fundo from '../img/Vector.png'
 import { Link } from 'react-router'
 
 export const Header = styled.header`

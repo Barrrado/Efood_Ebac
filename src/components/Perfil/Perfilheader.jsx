@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../Perfil/imgPerfil/logo.png'
-
+import logo from '../../img/logo.png'
 import { Header, Logo, Restaurante, TextoHeader } from '../../styles/PerfilHead'
 
 function PerfilH() {

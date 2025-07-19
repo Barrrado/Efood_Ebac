@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../components/Perfil/imgPerfil/logo.png'
+import logo from '../../img/logo.png'
 
 import { Header, Logo, TextoHeader } from '../../styles/header'
 

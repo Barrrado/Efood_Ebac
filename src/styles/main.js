@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 
 export const Conteiner = styled.div`
   max-width: 1024px;
-  height: 1290px;
+  height: auto;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(2, auto);
+  gap: 24px;
+  padding: 24px;
   background-color: rgb(255, 246, 239);
   margin: 0 auto;
   justify-items: center;
@@ -22,12 +23,9 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   width: 472px;
-  height: 398px;
+  height: 419px;
   border: 1px solid hsla(0, 72%, 65%, 1);
   background: hsla(0, 0%, 100%, 1);
-
-  grid-column: ${(props) => props.gridColumn};
-  grid-row: ${(props) => props.gridRow};
 `
 export const CorpoCard = styled.div`
   height: 181px;
@@ -42,7 +40,7 @@ export const Destaque = styled.div`
   color: rgb(255, 255, 255);
 `
 export const Btn = styled.button`
-  color:hsla(28, 100%, 93%, 1);
+  color: hsla(28, 100%, 93%, 1);
   background-color: hsla(0, 72%, 65%, 1);
   border: 0;
   padding: 3px;
@@ -96,7 +94,7 @@ export const Estrela = styled.img`
   margin: 10px;
 `
 export const BtnLink = styled(Link)`
-    color:hsla(28, 100%, 93%, 1);
+  color: hsla(28, 100%, 93%, 1);
   background-color: hsla(0, 72%, 65%, 1);
   border: 0;
   padding: 3px;
@@ -118,7 +116,7 @@ export const BtnLink = styled(Link)`
 `
 export const Notatitulo = styled.h2`
   font-family: Roboto;
-    color: hsla(0, 72%, 65%, 1);
- font-size: 20px;
-   font-weight: 700;
+  color: hsla(0, 72%, 65%, 1);
+  font-size: 20px;
+  font-weight: 700;
 `
