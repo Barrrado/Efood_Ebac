@@ -94,7 +94,7 @@ export const BtnLixo = styled.button`
 `
 export const TextCart2 = styled.h4`
   font-weight: 400;
-  margin: 6px;
+  margin: 8px;
   color: hsla(0, 72%, 65%, 1);
 `
 export const Lixeira = styled.img`
@@ -104,7 +104,7 @@ export const Lixeira = styled.img`
 
 export const Total = styled.div`
   display: flex;
-  margin: 5px;
+  margin: 3px;
   justify-content: space-between;
 `
 export const BtnCartx = styled.button`
