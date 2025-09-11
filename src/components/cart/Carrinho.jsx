@@ -29,6 +29,10 @@ const Carrinho = ({ onClose }) => {
     (acc, item) => acc + item.preco * item.quantidade,
     0
   )
+    const ClickCart = (e) => {
+    e.stopPropagation()
+  }
+
 
   return (
     <CartModal onClick={onClose}>
