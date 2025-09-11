@@ -36,7 +36,7 @@ const Carrinho = ({ onClose }) => {
 
   return (
     <CartModal onClick={onClose}>
-      <CartDiv>
+        <CartDiv onClick={ClickCart}>
         {itens.length === 0 ? (
           <p>Seu carrinho está vazio.</p>
         ) : (
