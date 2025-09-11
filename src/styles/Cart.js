@@ -34,8 +34,8 @@ export const CartDiv = styled.div`
   }
 `
 export const ImgFoto = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   grid-row: 1 / 3;
 
   @media (max-width: 360px) {
@@ -59,7 +59,7 @@ export const BtnCart = styled.button`
   }
 `
 export const ListaCart = styled.li`
-  padding: 10px;
+  padding: 8px;
   background-color: antiquewhite;
   border-radius: 5px;
   margin-bottom: 16px;
