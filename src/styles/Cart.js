@@ -75,7 +75,7 @@ export const ConteinerCart = styled.div`
 export const CartTexto = styled.div`
   display: flex;
   flex-direction: column;
-  width: 222px;
+  width: 242px;
 
   @media (max-width: 360px) {
     width: 117px;
