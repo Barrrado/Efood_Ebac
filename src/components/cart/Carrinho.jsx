@@ -21,6 +21,10 @@ import {
 const Carrinho = ({ onClose }) => {
   const itens = useSelector((state) => state.carrinho.itens)
   const dispatch = useDispatch()
+  
+  const [isEndOpen, setIsEndOpen] = useState(false)
+  const OpenEnd = () => setIsEndOpen(true)
+  const CloseEnd = () => setIsEndOpen(false)
 
   const handleRemoverDoCarrinho = (id) => {
     dispatch(removerDoCarrinho(id))
