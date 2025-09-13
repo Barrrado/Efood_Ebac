@@ -66,8 +66,11 @@ const Carrinho = ({ onClose }) => {
           <h4>Valor total:</h4>
           <h4>R${total.toFixed(2)}</h4>
         </Total>
-
-        <BtnCart>CONTINUAR PARA ENTREGA</BtnCart>
+                {itens.length > 0 ? (
+          <BtnCart onClick={OpenEnd}>CONTINUAR PARA ENTREGA</BtnCart>
+        ) : (
+          <p>Por favor Adicione pelo Menos 1 ou mais itens no carrinho</p>
+        )}
       </CartDiv>
     </CartModal>
   )
