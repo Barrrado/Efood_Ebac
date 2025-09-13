@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { removerDoCarrinho, removerItemCompletamente } from '../../store/cart'
 import lixeira from '../../img/c2510f15841e4855c13cfe444448798eeb37c734.png'
